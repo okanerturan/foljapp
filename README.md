@@ -141,7 +141,7 @@ npm test            # Vitest across all workspaces
 npm run verify:proof # README motion asset, link, and provenance contract
 npm run build       # Next.js production build
 npm run test:e2e    # Playwright E2E (requires browsers installed)
-npm audit --audit-level=high
+npm run audit:deps # npm audit at the high level, with one documented exception
 ```
 
 GitHub Actions protects the morphology engine with TypeScript regression checks,
